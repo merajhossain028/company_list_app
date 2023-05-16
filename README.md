@@ -1,30 +1,41 @@
-# company_list_app
+# Create a New Company App (Flutter Task Assignment by Apex DMIT Ltd.)
 
-A new Flutter project.
+This is a one page application. 
+The data comes from API in this app.
+Here I am using GET Api for getting the company list and POST api for create new company.
+Here I am using Riverpod State Management.
 
-## Getting Started
+#Commands:
 
-This project is a starting point for a Flutter application that follows the
-[simple app state management
-tutorial](https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple).
+* project create: flutter create -t skeleton -a java -i swift --org com.meraj project_app
+* clear the codebase: flutter clean
+* getting all: glutter pub get
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Now Run the Project.
+This project is running on Flutter 3.10.0 and Dart 3.0.0
+You can run this project in Android, iOS, Web and Windows OS.
 
-## Assets
+#Project Structure
 
-The `assets` directory houses images, fonts, and any other files you want to
-include with your application.
-
-The `assets/images` directory contains [resolution-aware
-images](https://flutter.dev/docs/development/ui/assets-and-images#resolution-aware).
-
-## Localization
-
-This project generates localized messages based on arb files found in
-the `lib/src/localization` directory.
-
-To support additional languages, please visit the tutorial on
-[Internationalizing Flutter
-apps](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
+lib
+├─ src
+│  │ 
+│  ├─ localization
+│  │   ├── app_en.arb
+│  │ 
+│  ├─ modules
+│  │   ├─ home
+│  │   │   ├─ api
+│  │   │   │   └── comapny_data_api.dart
+│  │   │   │   └── create_company_api.dart
+│  │   │   ├─ model
+│  │   │   │   └── comapny_data_model.dart
+│  │   │   ├─ provider
+│  │   │   │   └── home_provider.dart
+│  │   │   ├─ view
+│  │   │       ├─ popup
+│  │   │       │   └── popup.dart
+│  │   │       └── home.view.dart
+│  └─ app.dart
+│  
+└─ main.dart
