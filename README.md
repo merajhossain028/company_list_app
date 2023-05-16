@@ -19,21 +19,38 @@ You can run this project in Android, iOS, Web and Windows OS.
 
 lib
 -> src
-->-> 
+
 ->-> localization
+
 ->->->-> app_en.arb
+
 ->-> modules
+
 ->->-> home
+
 ->->->-> api
+
 ->->->->-> comapny_data_api.dart
+
 ->->->->-> create_company_api.dart
+
 ->->->->model
+
 ->->->->->comapny_data_model.dart
+
 ->->->->provider
+
 ->->->->->home_provider.dart
+
 ->->->-> view
+
 ->->->->->popup
+
 ->->->->->-> popup.dart
+
 ->->->->->home.view.dart
+
 ->-> app.dart
+
 -> main.dart
+
