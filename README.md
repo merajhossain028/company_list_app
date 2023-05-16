@@ -1,3 +1,4 @@
+
 # Create a New Company App (Flutter Task Assignment by Apex DMIT Ltd.)
 
 This is a one page application. 
@@ -18,43 +19,39 @@ You can run this project in Android, iOS, Web and Windows OS.
 #Project Structure
 
 lib
+-> src
 
-├─ src
+->-> localization
 
-│  │ 
-│  ├─ localization
+->->->-> app_en.arb
 
-│  │   ├── app_en.arb
+->-> modules
 
-│  │ 
-│  ├─ modules
+->->-> home
 
-│  │   ├─ home
+->->->-> api
 
-│  │   │   ├─ api
+->->->->-> comapny_data_api.dart
 
-│  │   │   │   └── comapny_data_api.dart
+->->->->-> create_company_api.dart
 
-│  │   │   │   └── create_company_api.dart
+->->->->model
 
-│  │   │   ├─ model
+->->->->->comapny_data_model.dart
 
-│  │   │   │   └── comapny_data_model.dart
+->->->->provider
 
-│  │   │   ├─ provider
+->->->->->home_provider.dart
 
-│  │   │   │   └── home_provider.dart
+->->->-> view
 
-│  │   │   ├─ view
+->->->->->popup
 
-│  │   │       ├─ popup
+->->->->->-> popup.dart
 
-│  │   │       │   └── popup.dart
+->->->->->home.view.dart
 
-│  │   │       └── home.view.dart
+->-> app.dart
 
-│  └─ app.dart
+-> main.dart
 
-│  
-
-└─ main.dart
