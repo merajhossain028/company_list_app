@@ -18,39 +18,43 @@ You can run this project in Android, iOS, Web and Windows OS.
 #Project Structure
 
 lib
--> src
 
-->-> localization
+├─ src
 
-->->->-> app_en.arb
+│  │ 
+│  ├─ localization
 
-->-> modules
+│  │   ├── app_en.arb
 
-->->-> home
+│  │ 
+│  ├─ modules
 
-->->->-> api
+│  │   ├─ home
 
-->->->->-> comapny_data_api.dart
+│  │   │   ├─ api
 
-->->->->-> create_company_api.dart
+│  │   │   │   └── comapny_data_api.dart
 
-->->->->model
+│  │   │   │   └── create_company_api.dart
 
-->->->->->comapny_data_model.dart
+│  │   │   ├─ model
 
-->->->->provider
+│  │   │   │   └── comapny_data_model.dart
 
-->->->->->home_provider.dart
+│  │   │   ├─ provider
 
-->->->-> view
+│  │   │   │   └── home_provider.dart
 
-->->->->->popup
+│  │   │   ├─ view
 
-->->->->->-> popup.dart
+│  │   │       ├─ popup
 
-->->->->->home.view.dart
+│  │   │       │   └── popup.dart
 
-->-> app.dart
+│  │   │       └── home.view.dart
 
--> main.dart
+│  └─ app.dart
 
+│  
+
+└─ main.dart
