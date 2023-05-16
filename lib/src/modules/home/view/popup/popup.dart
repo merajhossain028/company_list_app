@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../api/create_company_api.dart';
-import '../../provider/home.provider.dart';
+import '../../provider/home_provider.dart';
 
 Future<void> showInformationDialog(BuildContext context) async {
   return await showDialog(
